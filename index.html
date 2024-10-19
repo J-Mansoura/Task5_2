@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+</head>
+<body>
+    <div class="container d-flex align-items-center">
+        <div class="container w-75 p-3">
+            <select class=" form-select form-select-lg mb-3" aria-label="Physical Unit">
+                <option selected>Select unit</option>
+                <option value="L">Length</option>
+                <option value="W">Weight</option>
+                <option value="T">Time</option>
+            </select>
+              
+            <select class="prefix-from form-select form-select-sm">
+                <option selected>From</option>
+                <option value="inch">inch</option>
+                <option value="yard">yard</option>
+                <option value="foot">foot</option>
+            </select>
+            <select class="prefix-to form-select form-select-sm">
+                <option selected>To</option>
+                <option value="meter">meter</option>
+                <option value="centimeter">centimeter</option>
+                <option value="mellimeter">mellimeter</option>
+            </select>
+
+            <div class="screen border text-center mt-100">
+            </div>
+
+            <div class="w-100 d-flex justify-content-center">
+                <div class="my-3 w-50 keypad border border-black d-flex justify-content-around flex-wrap bg-info-subtle">
+                    <button class="my-1 mx-1 w-25 btn btn-dark number" id="num7" value="7">7</button>
+                    <button class="my-1 mx-1 w-25 btn btn-dark number" id="num8" value="8">8</button>
+                    <button class="my-1 mx-1 w-25 btn btn-dark number" id="num9" value="9">9</button>
+                    <button class="my-1 mx-1 w-25 btn btn-dark number" id="num4" value="4">4</button>
+                    <button class="my-1 mx-1 w-25 btn btn-dark number" id="num5" value="5">5</button>
+                    <button class="my-1 mx-1 w-25 btn btn-dark number" id="num6" value="6">6</button>
+                    <button class="my-1 mx-1 w-25 btn btn-dark number" id="num1" value="1">1</button>
+                    <button class="my-1 mx-1 w-25 btn btn-dark number" id="num2" value="2">2</button>
+                    <button class="my-1 mx-1 w-25 btn btn-dark number" id="num3" value="3">3</button>
+                    <button class="my-1 mx-1 w-25 btn btn-dark number zero" value="0">0</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html> 
